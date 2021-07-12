@@ -1,4 +1,4 @@
-# TakesxiSximada Tap
+# My Homebrew Tap
 
 ## How do I install these formulae?
 
@@ -6,6 +6,6 @@
 
 Or `brew tap takesxisximada/tap` and then `brew install <formula>`.
 
-## Documentation
+## Support package.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- [x] apisprout https://github.com/danielgtaylor/apisprout
