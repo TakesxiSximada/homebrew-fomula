@@ -9,3 +9,4 @@ Or `brew tap takesxisximada/tap` and then `brew install <formula>`.
 ## Support package.
 
 - [x] apisprout https://github.com/danielgtaylor/apisprout
+- [x] sqlfluff https://github.com/sqlfluff/sqlfluff
