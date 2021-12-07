@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install takesxisximada/tap/<formula>`
+`brew install TakesxiSximada/homebrew-tap/<formula>`
 
-Or `brew tap takesxisximada/tap` and then `brew install <formula>`.
+Or `brew tap TakesxiSximada/homebrew-tap` and then `brew install <formula>`.
 
 ## Support package.
 
