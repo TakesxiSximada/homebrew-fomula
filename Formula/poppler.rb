@@ -1,25 +1,11 @@
 class Poppler < Formula
-  desc "PDF rendering library (based on the xpdf-3.0 code base)"
-  homepage "https://poppler.freedesktop.org/"
-  url "https://poppler.freedesktop.org/poppler-22.12.0.tar.xz"
-  sha256 "d9aa9cacdfbd0f8e98fc2b3bb008e645597ed480685757c3e7bc74b4278d15c0"
+  desc "PDF rendering library (based on the xpdf-3.0 code base) with Reply annotation support"
+  homepage "https://github.com/TakesxiSximada/poppler-symdom-custom/"
+  url "https://github.com/TakesxiSximada/poppler-symdom-custom/archive/refs/heads/symdon-custom.zip"
+  sha256 "8d4c1d4bc36a6289567887b98af262bc2973f937b7c68cb6fbacfe9bc69d5153"
   license "GPL-2.0-only"
-  head "https://gitlab.freedesktop.org/poppler/poppler.git", branch: "master"
-
-  livecheck do
-    url :homepage
-    regex(/href=.*?poppler[._-]v?(\d+(?:\.\d+)+)\.t/i)
-  end
-
-  bottle do
-    sha256 arm64_ventura:  "c4f2a399329c548d6a25a02377306de52e1cfb0ecdf9406167458a442238761f"
-    sha256 arm64_monterey: "bb025511cc1b749bcccc7430a7c0dc43a1d6dd9518420e706040490d1ffaaa33"
-    sha256 arm64_big_sur:  "ee8389bcc3bed1ed712fa1fb5785f90fb48280c85a3bf8ea32ab31c2653d74d9"
-    sha256 ventura:        "de3c6978b3dedc8a598fab3454d65fa246de9bbfd3c9d895279c3e1340ea8912"
-    sha256 monterey:       "a2b52746a5ab84ce9ab439a2a2ec0351a2c714e53ed44d31151b4571ad36da64"
-    sha256 big_sur:        "82df8bd88a6d03ffbbd6179aa162da72eff9d3038737f34a162c5b7a85509565"
-    sha256 x86_64_linux:   "309a524025f6f1aac579232742613386e60198661bcbfbfab5d96cd7cf1eb61e"
-  end
+  head "https://github.com/TakesxiSximada/poppler-symdom-custom.git", branch: "symdon-custom"
+  version "23.01.0"
 
   depends_on "cmake" => :build
   depends_on "gobject-introspection" => :build
