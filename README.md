@@ -13,3 +13,4 @@ Or `brew tap TakesxiSximada/homebrew-tap` and then `brew install <formula>`.
 - [x] go-org https://github.com/niklasfasching/go-org
 
 - [x] Ditaa with Chinese Japanese korean Wide Character Support. https://github.com/TakesxiSximada/ditaa
+- [ ] Poppler with Reply annotation support. https://github.com/TakesxiSximada/poppler-symdom-custom
